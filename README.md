@@ -1,9 +1,41 @@
-# Trip-Planner-Using-Dijkstra
-Smart Trip Planner Using Dijkstra 🚗🌍 is a Python-based application that simplifies and optimizes travel planning. This app uses advanced algorithms like Dijkstra’s Algorithm to find the shortest path between cities, enhancing route planning by considering distance, time, and cost. 🗺️✨
 
-The application integrates Nominatim API 🌐 for fetching accurate coordinates of source and destination cities and OpenRouteService API 🚦 to calculate routes, distances, and travel times. Users can input their source and destination cities and select from different transport modes—🚗 Car, 🚲 Bike, or 🚌 Bus—each providing customized estimates for travel time and cost. 💸
+# Trip Planner Using Dijkstra's Algorithm 🚗🗺️
 
-With Dijkstra’s Algorithm, the app dynamically calculates the most efficient route, optimizing the journey and ensuring minimal travel time and cost. The interface is designed using Tkinter 🖥️ for a simple, user-friendly experience, allowing users to easily plan their trips with ease. Additionally, the app includes reverse geocoding 🔍, allowing it to identify cities and locations along the route, providing more context for the traveler.
+Welcome to the **Trip Planner**! This Python-based application helps you plan your trips by calculating the shortest path using **Dijkstra's Algorithm**. With a simple interface, it calculates routes, distances, and travel times using external APIs. 🛣️
 
-This tool is ideal for individuals looking to plan road trips, daily commutes, or educational projects related to transportation and logistics. Smart Trip Planner showcases the power of Python 🐍, algorithm design, and API integration to deliver a smooth and efficient travel planning experience. Whether you’re planning an adventure or optimizing your route for daily use, this app ensures your trip is as efficient as possible. 🚀🌟
+## Features 🔑
+- **Route Calculation** 🛤️: Calculates the shortest route between two points using **Dijkstra's Algorithm**.
+- **Multiple Travel Modes** 🚗: Choose from different travel modes (Car, Bike, Bus).
+- **Distance and Time Estimates** ⏱️: Get accurate travel time and distance estimates.
+- **User-Friendly Interface** 👩‍💻: Intuitive interface built using **Tkinter**.
+- **API Integration** 🌐: Uses **OpenRouteService** and **Nominatim** APIs to fetch travel data.
+- **Error Handling** 🚫: Handles incorrect inputs and missing data.
 
+## How It Works ⚙️
+1. **Set Start and End Locations** 📍: Enter your starting and ending locations.
+2. **Select Travel Mode** 🚗: Choose between Car, Bike, or Bus for customized estimates.
+3. **View Results** 🏁: Get the shortest route, distance, and estimated time of travel.
+4. **Interactive Map** 🗺️: Visualize your journey with route information displayed.
+
+## Installation 🛠️
+Clone this repository to your local machine:
+
+```bash
+git clone https://github.com/yourusername/Trip-Planner-Using-Dijkstra.git
+```
+
+Then, run the application:
+
+```bash
+python trip_planner.py
+```
+
+## Requirements 📦
+- Python 3.x
+- **Tkinter** (comes with Python by default)
+- **Requests**: For API calls. Install it using `pip install requests`.
+- **OpenRouteService** API key (sign up at [OpenRouteService](https://openrouteservice.org/) for an API key).
+- **Nominatim** API (free for low traffic use, part of **OpenStreetMap**).
+
+## License 📝
+This project is licensed under the MIT License.
